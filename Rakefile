@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-PivotalTrackerDrawing::Application.load_tasks
+RubyNationDrawing::Application.load_tasks

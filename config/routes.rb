@@ -1,3 +1,3 @@
-PivotalTrackerDrawing::Application.routes.draw do
+RubyNationDrawing::Application.routes.draw do
   resources :entries, only: [:create]
 end
