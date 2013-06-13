@@ -3,7 +3,7 @@ class EntriesController < ApplicationController
     entry = Entry.new(params[:entry])
     if entry.save
        render json: {
-           message: "You have a #{Entry.chance_to_win} chance to win an iPod Nan"
+           message: "You have a #{Entry.chance_to_win} chance to win an iPod Nano!"
        }
     else
        if entry.errors[:email] == ["can't be blank"]

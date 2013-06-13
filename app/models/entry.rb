@@ -1,5 +1,5 @@
 class Entry < ActiveRecord::Base
-  WINNERS = 10
+  WINNERS = 1
 
   attr_accessible :email
   validates :email, presence: true, uniqueness: true
